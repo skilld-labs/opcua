@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/uasc"
 
 	"github.com/pascaldekloe/goe/verify"
 )
@@ -123,7 +123,7 @@ func x509Cert(c, k []byte) tls.Certificate {
 }
 
 func TestOptions(t *testing.T) {
-	d, err := ioutil.TempDir("", "gopcua")
+	d, err := ioutil.TempDir("", "skilld-labs")
 	if err != nil {
 		t.Fatal(err)
 	}

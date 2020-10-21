@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // DefaultClientConfig returns the default configuration for a client
@@ -39,9 +39,9 @@ func DefaultSessionConfig() *uasc.SessionConfig {
 	return &uasc.SessionConfig{
 		SessionTimeout: 20 * time.Minute,
 		ClientDescription: &ua.ApplicationDescription{
-			ApplicationURI:  "urn:gopcua:client",
-			ProductURI:      "urn:gopcua",
-			ApplicationName: ua.NewLocalizedText("gopcua - OPC UA implementation in Go"),
+			ApplicationURI:  "urn:skilld-labs:client",
+			ProductURI:      "urn:skilld-labs",
+			ApplicationName: ua.NewLocalizedText("skilld-labs - OPC UA implementation in Go"),
 			ApplicationType: ua.ApplicationTypeClient,
 		},
 		LocaleIDs:          []string{"en-us"},

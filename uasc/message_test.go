@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/id"
+	"github.com/skilld-labs/opcua/id"
 
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua/ua"
 )
 
 func TestMessage(t *testing.T) {
@@ -20,7 +20,7 @@ func TestMessage(t *testing.T) {
 			Struct: func() interface{} {
 				s := &SecureChannel{
 					cfg: &Config{
-						SecurityPolicyURI: "http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+						SecurityPolicyURI: "http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 					},
 				}
 				instance := &channelInstance{
@@ -119,7 +119,7 @@ func TestMessage(t *testing.T) {
 			Struct: func() interface{} {
 				s := &SecureChannel{
 					cfg: &Config{
-						SecurityPolicyURI: "http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+						SecurityPolicyURI: "http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 					},
 				}
 				instance := &channelInstance{
@@ -190,7 +190,7 @@ func TestMessage(t *testing.T) {
 			Struct: func() interface{} {
 				s := &SecureChannel{
 					cfg: &Config{
-						SecurityPolicyURI: "http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+						SecurityPolicyURI: "http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 					},
 				}
 				instance := &channelInstance{

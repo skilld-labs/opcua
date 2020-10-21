@@ -13,7 +13,7 @@ func TestAsymmetricSecurityHeader(t *testing.T) {
 		{
 			Name: "normal",
 			Struct: NewAsymmetricSecurityHeader(
-				"http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+				"http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 				[]byte{0xde, 0xad},
 				[]byte{0xbe, 0xef},
 				//[]byte{0xde, 0xad, 0xbe, 0xef},
@@ -58,7 +58,7 @@ func TestAsymmetricSecurityHeader(t *testing.T) {
 		{
 			Name: "no-cert",
 			Struct: NewAsymmetricSecurityHeader(
-				"http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+				"http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 				nil,
 				[]byte{0xbe, 0xef},
 				//[]byte{0xde, 0xad, 0xbe, 0xef},
@@ -84,7 +84,7 @@ func TestAsymmetricSecurityHeader(t *testing.T) {
 		{
 			Name: "no-thumb",
 			Struct: NewAsymmetricSecurityHeader(
-				"http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+				"http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 				[]byte{0xde, 0xad},
 				nil,
 				//[]byte{0xde, 0xad, 0xbe, 0xef},
@@ -110,7 +110,7 @@ func TestAsymmetricSecurityHeader(t *testing.T) {
 		{
 			Name: "no-payload",
 			Struct: NewAsymmetricSecurityHeader(
-				"http://gopcua.example/OPCUA/SecurityPolicy#Foo",
+				"http://skilld-labs.example/OPCUA/SecurityPolicy#Foo",
 				[]byte{0xde, 0xad},
 				[]byte{0xbe, 0xef},
 				//nil,

@@ -17,12 +17,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uacp"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // GetEndpoints returns the available endpoint descriptions for the server.
@@ -143,7 +143,7 @@ type Client struct {
 // To modify configuration you can provide any number of Options as opts. See
 // #Option for details.
 //
-// https://godoc.org/github.com/gopcua/opcua#Option
+// https://godoc.org/github.com/skilld-labs/opcua#Option
 func NewClient(endpoint string, opts ...Option) *Client {
 	cfg, sessionCfg := ApplyConfig(opts...)
 	c := Client{
@@ -710,7 +710,7 @@ func (c *Client) CreateSession(cfg *uasc.SessionConfig) (*Session, error) {
 
 	name := cfg.SessionName
 	if name == "" {
-		name = fmt.Sprintf("gopcua-%d", time.Now().UnixNano())
+		name = fmt.Sprintf("skilld-labs-%d", time.Now().UnixNano())
 	}
 
 	req := &ua.CreateSessionRequest{
@@ -1124,7 +1124,7 @@ func (c *Client) notifySubscription(ctx context.Context, response *ua.PublishRes
 	// todo(fs): The client sent the list of ids in the *previous* PublishRequest.
 	// todo(fs): If we want to handle them then we probably need to keep track
 	// todo(fs): of the message ids we have ack'ed.
-	// todo(fs): see discussion in https://github.com/gopcua/opcua/issues/337
+	// todo(fs): see discussion in https://github.com/skilld-labs/opcua/issues/337
 
 	if response.NotificationMessage == nil {
 		sub.notify(ctx, &PublishNotificationData{

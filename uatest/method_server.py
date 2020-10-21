@@ -17,7 +17,7 @@ if __name__ == "__main__":
     server = Server()
     server.set_endpoint("opc.tcp://0.0.0.0:4840/")
 
-    ns = server.register_namespace("http://gopcua.com/")
+    ns = server.register_namespace("http://skilld-labs.com/")
     main = server.nodes.objects.add_object(ua.NodeId("main", ns), "main")
     fnEven = main.add_method(ua.NodeId("even", ns), "even", even, [ua.VariantType.Int64], [ua.VariantType.Boolean])
     fnSquare = main.add_method(ua.NodeId("square", ns), "square", square, [ua.VariantType.Int64], [ua.VariantType.Int64])

@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="50%" src="https://raw.githubusercontent.com/gopcua/opcua/master/gopher.png">
+   <img width="50%" src="https://raw.githubusercontent.com/skilld-labs/opcua/master/gopher.png">
 </p>
 
 <p align="center">
@@ -14,12 +14,12 @@ A native Go implementation of the OPC/UA Binary Protocol.
 
 You need go1.13 or higher. We test with the current and previous Go version.
 
-[![CircleCI](https://circleci.com/gh/gopcua/opcua.svg?style=shield)](https://circleci.com/gh/gopcua/opcua)
-[![GitHub](https://github.com/gopcua/opcua/workflows/gopuca/badge.svg)](https://github.com/gopcua/opcua/actions)
-[![GoDoc](https://godoc.org/github.com/gopcua/opcua?status.svg)](https://godoc.org/github.com/gopcua/opcua)
-[![GolangCI](https://golangci.com/badges/github.com/gopcua/opcua.svg)](https://golangci.com/r/github.com/gopcua/opcua)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gopcua/opcua/blob/master/LICENSE)
-[![Version](https://img.shields.io/github/tag/gopcua/opcua.svg?color=blue&label=version)](https://github.com/gopcua/opcua/releases)
+[![CircleCI](https://circleci.com/gh/skilld-labs/opcua.svg?style=shield)](https://circleci.com/gh/skilld-labs/opcua)
+[![GitHub](https://github.com/skilld-labs/opcua/workflows/gopuca/badge.svg)](https://github.com/skilld-labs/opcua/actions)
+[![GoDoc](https://godoc.org/github.com/skilld-labs/opcua?status.svg)](https://godoc.org/github.com/skilld-labs/opcua)
+[![GolangCI](https://golangci.com/badges/github.com/skilld-labs/opcua.svg)](https://golangci.com/r/github.com/skilld-labs/opcua)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/skilld-labs/opcua/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/tag/skilld-labs/opcua.svg?color=blue&label=version)](https://github.com/skilld-labs/opcua/releases)
 
 ## Quickstart
 
@@ -27,7 +27,7 @@ You need go1.13 or higher. We test with the current and previous Go version.
 # make sure you have go1.13 or higher
 
 # install library
-go get -u github.com/gopcua/opcua
+go get -u github.com/skilld-labs/opcua
 
 # get current date and time 'ns=0;i=2258'
 go run examples/datetime/datetime.go -endpoint opc.tcp://localhost:4840
@@ -51,15 +51,15 @@ but there is still no guarantee of API stability.
 However, you can safely assume that we are aiming to make the APIs as
 stable as possible. :)
 
-The [Current State](https://github.com/gopcua/opcua/wiki/Current-State) was moved
-to the [Wiki](https://github.com/gopcua/opcua/wiki).
+The [Current State](https://github.com/skilld-labs/opcua/wiki/Current-State) was moved
+to the [Wiki](https://github.com/skilld-labs/opcua/wiki).
 
 ## Your Help is Appreciated
 
 If you are looking for ways to contribute you can
 
  * test the high-level client against real OPC/UA servers
- * add functions to the client or tell us which functions you need for `gopcua` to be useful
+ * add functions to the client or tell us which functions you need for `skilld-labs` to be useful
  * work on the security layer, server and other components
  * and last but not least, file issues, review code and write/update documentation
 
@@ -67,7 +67,7 @@ Also, if the library is already useful please spread the word as a motivation.
 
 ## Authors
 
-The [Gopcua Team](https://github.com/gopcua/opcua/graphs/contributors).
+The [Gopcua Team](https://github.com/skilld-labs/opcua/graphs/contributors).
 
 If you need to get in touch with us directly you may find us on [Keybase.io](https://keybase.io)
 but try to create an issue first.
@@ -142,4 +142,4 @@ The current set of supported services is only for the high-level client.
 
 ## License
 
-[MIT](https://github.com/gopcua/opcua/blob/master/LICENSE)
+[MIT](https://github.com/skilld-labs/opcua/blob/master/LICENSE)

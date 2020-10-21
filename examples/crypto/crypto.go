@@ -16,10 +16,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/ua"
 
 	"golang.org/x/crypto/ssh/terminal"
 )
@@ -32,7 +32,7 @@ var (
 	policy   = flag.String("sec-policy", "auto", "Security Policy URL or one of None, Basic128Rsa15, Basic256, Basic256Sha256")
 	mode     = flag.String("sec-mode", "auto", "Security Mode: one of None, Sign, SignAndEncrypt")
 	auth     = flag.String("auth-mode", "Anonymous", "Authentication Mode: one of Anonymous, UserName, Certificate")
-	appuri   = flag.String("app-uri", "urn:gopcua:client", "Application URI")
+	appuri   = flag.String("app-uri", "urn:skilld-labs:client", "Application URI")
 	list     = flag.Bool("list", false, "List the policies supported by the endpoint and exit")
 	username = flag.String("user", "", "Username to use in auth-mode UserName; will prompt for input if omitted")
 	password = flag.String("pass", "", "Password to use in auth-mode UserName; will prompt for input if omitted")
