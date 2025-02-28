@@ -1,6 +1,6 @@
 package attrs
 
-import "github.com/gopcua/opcua/ua"
+import "github.com/skilld-labs/opcua/ua"
 
 func BrowseName(name string) *ua.QualifiedName {
 	return &ua.QualifiedName{Name: name}

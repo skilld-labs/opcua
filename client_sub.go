@@ -7,11 +7,11 @@ import (
 	"slices"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/stats"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // Subscribe creates a Subscription with given parameters.

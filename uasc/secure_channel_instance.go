@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uapolicy"
 )
 
 type instanceState int

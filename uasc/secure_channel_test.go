@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	uatest "github.com/gopcua/opcua/tests/python"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/id"
+	uatest "github.com/skilld-labs/opcua/tests/python"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uacp"
+	"github.com/skilld-labs/opcua/uapolicy"
 	"github.com/stretchr/testify/require"
 )
 

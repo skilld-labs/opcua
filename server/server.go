@@ -16,11 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/schema"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/schema"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uacp"
+	"github.com/skilld-labs/opcua/uapolicy"
 )
 
 //go:generate go run ../cmd/predefined-nodes/main.go

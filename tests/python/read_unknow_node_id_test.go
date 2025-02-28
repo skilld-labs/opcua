@@ -6,9 +6,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/ua"
 	"github.com/stretchr/testify/require"
 )
 

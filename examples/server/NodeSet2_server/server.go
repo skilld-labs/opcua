@@ -16,10 +16,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/schema"
-	"github.com/gopcua/opcua/server"
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/schema"
+	"github.com/skilld-labs/opcua/server"
+	"github.com/skilld-labs/opcua/ua"
 )
 
 var (

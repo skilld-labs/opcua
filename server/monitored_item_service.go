@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // MonitoredItemService implements the MonitoredItem Service Set.

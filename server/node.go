@@ -6,10 +6,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/server/attrs"
-	"github.com/gopcua/opcua/server/refs"
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/server/attrs"
+	"github.com/skilld-labs/opcua/server/refs"
+	"github.com/skilld-labs/opcua/ua"
 )
 
 type Attributes map[ua.AttributeID]*ua.DataValue

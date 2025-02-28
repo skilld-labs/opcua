@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uacp"
+	"github.com/skilld-labs/opcua/uapolicy"
+	"github.com/skilld-labs/opcua/uasc"
 	"github.com/stretchr/testify/require"
 )
 

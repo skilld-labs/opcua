@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // AttributeService implements the Attribute Service Set.
