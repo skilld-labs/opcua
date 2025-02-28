@@ -7,7 +7,7 @@
 package ua
 
 import (
-	"github.com/skilld-labs/opcua/id"
+	"github.com/gopcua/opcua/id"
 )
 
 func init() {

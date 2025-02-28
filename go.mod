@@ -1,4 +1,4 @@
-module github.com/skilld-labs/opcua
+module github.com/gopcua/opcua
 
 go 1.22.0
 

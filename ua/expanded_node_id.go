@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 )
 
 // ExpandedNodeID extends the NodeID structure by allowing the NamespaceURI to be

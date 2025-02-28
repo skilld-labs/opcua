@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/skilld-labs/opcua"
+	"github.com/gopcua/opcua"
 	"github.com/stretchr/testify/require"
 )
 

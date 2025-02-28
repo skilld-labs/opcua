@@ -8,7 +8,7 @@ import (
 	"crypto/rsa"
 	"time"
 
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua/ua"
 )
 
 // Config represents a configuration which UASC client/server has in common.

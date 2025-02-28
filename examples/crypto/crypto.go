@@ -19,11 +19,11 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/skilld-labs/opcua"
-	"github.com/skilld-labs/opcua/debug"
-	"github.com/skilld-labs/opcua/errors"
-	uatest "github.com/skilld-labs/opcua/tests/python"
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua"
+	"github.com/gopcua/opcua/debug"
+	"github.com/gopcua/opcua/errors"
+	uatest "github.com/gopcua/opcua/tests/python"
+	"github.com/gopcua/opcua/ua"
 )
 
 var (
