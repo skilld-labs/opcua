@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gopcua/opcua/errors"
+	"github.com/skilld-labs/opcua/errors"
 )
 
 var (

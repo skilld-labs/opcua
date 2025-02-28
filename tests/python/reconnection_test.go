@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/monitor"
-	"github.com/gopcua/opcua/ua"
+	"github.com/skilld-labs/opcua"
+	"github.com/skilld-labs/opcua/monitor"
+	"github.com/skilld-labs/opcua/ua"
 	"github.com/stretchr/testify/require"
 )
 

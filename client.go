@@ -18,13 +18,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/skilld-labs/opcua/debug"
+	"github.com/skilld-labs/opcua/errors"
+	"github.com/skilld-labs/opcua/id"
+	"github.com/skilld-labs/opcua/stats"
+	"github.com/skilld-labs/opcua/ua"
+	"github.com/skilld-labs/opcua/uacp"
+	"github.com/skilld-labs/opcua/uasc"
 )
 
 // FindServers returns the servers known to a server or discovery server.
