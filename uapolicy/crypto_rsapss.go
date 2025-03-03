@@ -9,7 +9,7 @@ import (
 	_ "crypto/sha1"
 	_ "crypto/sha256"
 
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua/ua"
 )
 
 type RSAPSS struct {

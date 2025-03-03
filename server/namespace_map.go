@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/skilld-labs/opcua/id"
-	"github.com/skilld-labs/opcua/server/attrs"
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/server/attrs"
+	"github.com/gopcua/opcua/ua"
 )
 
 // This namespaces give a convenient way to have data mapped to the OPC server

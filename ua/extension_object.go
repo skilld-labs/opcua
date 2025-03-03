@@ -5,8 +5,8 @@
 package ua
 
 import (
-	"github.com/skilld-labs/opcua/debug"
-	"github.com/skilld-labs/opcua/id"
+	"github.com/gopcua/opcua/debug"
+	"github.com/gopcua/opcua/id"
 )
 
 // eotypes contains all known extension objects.

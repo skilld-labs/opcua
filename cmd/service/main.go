@@ -12,8 +12,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/skilld-labs/opcua/cmd/service/goname"
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/cmd/service/goname"
+	"github.com/gopcua/opcua/errors"
 )
 
 var in, out, pkg string
@@ -278,7 +278,7 @@ const (
 
 var tmplRegExtObjs = template.Must(template.New("").Parse(`
 import (
-	"github.com/skilld-labs/opcua/id"
+	"github.com/gopcua/opcua/id"
 )
 
 func init() {
@@ -337,7 +337,7 @@ var funcs = template.FuncMap{
 
 var tmplRegister = template.Must(template.New("").Funcs(funcs).Parse(`
 
-import "github.com/skilld-labs/opcua/id"
+import "github.com/gopcua/opcua/id"
 
 func init() {
 	{{- range $i, $v := . -}}

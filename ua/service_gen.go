@@ -6,7 +6,7 @@
 
 package ua
 
-import "github.com/skilld-labs/opcua/id"
+import "github.com/gopcua/opcua/id"
 
 func init() {
 	RegisterService(id.ServiceFault_Encoding_DefaultBinary, new(ServiceFault))

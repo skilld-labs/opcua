@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skilld-labs/opcua/errors"
-	"github.com/skilld-labs/opcua/ua"
-	"github.com/skilld-labs/opcua/uacp"
-	"github.com/skilld-labs/opcua/uapolicy"
-	"github.com/skilld-labs/opcua/uasc"
+	"github.com/gopcua/opcua/errors"
+	"github.com/gopcua/opcua/ua"
+	"github.com/gopcua/opcua/uacp"
+	"github.com/gopcua/opcua/uapolicy"
+	"github.com/gopcua/opcua/uasc"
 )
 
 // DefaultClientConfig returns the default configuration for a client

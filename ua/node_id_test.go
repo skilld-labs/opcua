@@ -10,7 +10,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 	"github.com/stretchr/testify/require"
 )
 

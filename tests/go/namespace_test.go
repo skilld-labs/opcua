@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/skilld-labs/opcua"
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua"
+	"github.com/gopcua/opcua/ua"
 	"github.com/stretchr/testify/require"
 )
 

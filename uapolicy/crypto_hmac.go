@@ -4,7 +4,7 @@ import (
 	"crypto"
 	"crypto/hmac"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 )
 
 type HMAC struct {

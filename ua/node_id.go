@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 )
 
 // todo(fs): fix mask

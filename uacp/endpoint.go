@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 )
 
 // ResolveEndpoint returns network type, address, and error splitted from EndpointURL.

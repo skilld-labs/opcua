@@ -19,9 +19,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/skilld-labs/opcua/id"
-	"github.com/skilld-labs/opcua/server"
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/server"
+	"github.com/gopcua/opcua/ua"
 )
 
 var (

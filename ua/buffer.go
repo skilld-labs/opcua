@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/skilld-labs/opcua/errors"
+	"github.com/gopcua/opcua/errors"
 )
 
 const (

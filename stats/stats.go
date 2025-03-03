@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/skilld-labs/opcua/ua"
+	"github.com/gopcua/opcua/ua"
 )
 
 // stats is the global statistics counter.
